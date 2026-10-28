@@ -3,7 +3,7 @@
   <h1>Robin</h1>
   <p><b>App de escritorio que lleva el expediente de cada unidad vendida (por VIN) y el prorrateo de gastos de una red de concesionarios, montada encima del almacén del DMS sin escribir en él.</b></p>
   <p>
-    <a href="https://github.com/RexGhidorah/robin-dms/releases/latest"><img src="https://img.shields.io/badge/▶_Descargar_demo_(Windows)-000?style=for-the-badge" alt="Descargar demo"></a>
+    <a href="https://github.com/tochtlani/robin-dms/releases/latest"><img src="https://img.shields.io/badge/▶_Descargar_demo_(Windows)-000?style=for-the-badge" alt="Descargar demo"></a>
   </p>
   <p>
     <img src="https://img.shields.io/badge/.NET-10-512BD4?style=flat-square&labelColor=0d1117" alt=".NET 10">
@@ -61,7 +61,7 @@ modo demo, con nombres, VINs, agencias y montos inventados.
 ### Descargar demo (Windows)
 
 1. Descarga `Robin-Demo-win-x64.zip` desde
-   [Releases](https://github.com/RexGhidorah/robin-dms/releases/latest) y descomprímelo.
+   [Releases](https://github.com/tochtlani/robin-dms/releases/latest) y descomprímelo.
 2. Ejecuta `Robin-Demo.exe` (autocontenido: no requiere instalar .NET, ni API, ni SQL Server).
 3. Entra con cualquier usuario y contraseña; `demo` tiene rol Admin.
 
@@ -156,8 +156,8 @@ flowchart LR
 
 Robin es además el **chasis** de otras dos apps internas que reutilizan su arquitectura (WPF/MVVM
 + Minimal API + Shared, JWT con permisos en claims, auditoría por campo, migraciones idempotentes,
-instalador y auto-update): [Mithril SkyLine](https://github.com/RexGhidorah/mithril-skyline) y
-[Nómina Quincenal](https://github.com/RexGhidorah/nomina-quincenal).
+instalador y auto-update): [Mithril SkyLine](https://github.com/tochtlani/mithril-skyline) y
+[Nómina Quincenal](https://github.com/tochtlani/nomina-quincenal).
 
 ## Stack
 
@@ -173,7 +173,7 @@ instalador y auto-update): [Mithril SkyLine](https://github.com/RexGhidorah/mith
 
 ## Correr la demo localmente
 
-Descarga el zip de [Releases](https://github.com/RexGhidorah/robin-dms/releases/latest) y ejecuta
+Descarga el zip de [Releases](https://github.com/tochtlani/robin-dms/releases/latest) y ejecuta
 `Robin-Demo.exe`. Solo Windows 10/11 x64; no requiere nada instalado.
 
 ---
